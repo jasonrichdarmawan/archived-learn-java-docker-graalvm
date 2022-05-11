@@ -1,0 +1,10 @@
+version: '3'
+services:
+  native-image:
+    build:
+      context: .
+      dockerfile: native-image/Dockerfile
+  jdk:
+    build:
+      context: .
+      dockerfile: jdk/Dockerfile
